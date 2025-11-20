@@ -1,0 +1,4 @@
+name: BlueMoedas
+version: '1.0-SNAPSHOT'
+main: me.umastrodev.bluemoedas
+api-version: '1.21'

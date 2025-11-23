@@ -38,6 +38,11 @@ public final class bluemoedas extends JavaPlugin {
             catch (Exception localException1) {}
         }
 
+        getCommand("moedas").setExecutor(new Comandos());
+        getCommand("darmoedas").setExecutor(new Comandos());
+        getCommand("vermoedas").setExecutor(new Comandos());
+        getCommand("tirarmoedas").setExecutor(new Comandos());
+
     @Override
     public void onDisable() {
 
